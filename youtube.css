@@ -1,0 +1,57 @@
+#player {
+    margin-bottom: 10px;
+  }
+
+  #results {
+    margin-bottom: 10px;
+  }
+
+  #playlistItems li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  #playlistItems li.active {
+    font-weight: bold;
+  }
+
+.custom-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button:active {
+  background-color: #003e80;
+}
+
+.play:hover {
+  font-weight: bold;
+}
+#progressBar {
+  width: 100%;
+  background-color: #DDDDDD;
+}
+
+#progress {
+  width: 0;
+  height: 30px;
+  line-height: 30px;
+  background-color: #8C9CEC;
+  text-align: center;
+}
+#currentTrackInfo{
+  margin-top: 10px;
+}
+
+.currentTrack{
+  display: inline;
+  margin: 0;
+}
